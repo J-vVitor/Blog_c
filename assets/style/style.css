@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+
+header{
+    border-top:2px solid darkgrey;
+    border-bottom:1px solid darkgrey;
+    display: flex;
+    justify-content: space-between;
+    padding:8px;
+    font-family: 'Bebas Neue', sans-serif;;
+}
+
+header div{
+    display: flex;
+}
+
+header p{
+    font-size: 40px;
+}
+
+#divnav{
+    align-self: center;
+}
+
+header ul{
+    display: flex;
+    list-style-type: none;
+    color: darkgray;
+}
+
+header ul li{
+    margin-right: 10px;
+    font-size: 18px;
+}
